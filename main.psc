@@ -60,7 +60,7 @@ Funcion __calcular_y_mostrar(__facturas)
 	Escribir "--------------------------------------------------------"
 	Para i = 1 Hasta 1000 Con Paso 1 Hacer
 		Si __facturas[i, 1] <> 0 Entonces
-			Escribir "Facturación: " , "$" , __facturas[i, 1] ,  " | Porcentaje: " , __facturas[i, 2] , "%" , " | Total: " , __facturas[i, 3]
+			Escribir "Facturación: " , "$" , __facturas[i, 1] , " | Porcentaje: " , __facturas[i, 2] , "%" , " | Total: " , __facturas[i, 3]
 		FinSi
 	FinPara
 FinFuncion
